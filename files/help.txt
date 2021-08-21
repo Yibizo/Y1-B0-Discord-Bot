@@ -1,0 +1,98 @@
+Help sections
+`//help test`
+Test commands
+
+`//help fun`
+Fun commands
+
+`//help hm`
+Hangman commands
+
+`//help note`
+Note commands
+
+`//help audio`
+Audio commands
+
+Test commands
+`//ping`
+Returns pong and bot's latency
+
+`//dt`
+Displays the current date and time
+
+Fun commands
+`//echo "text"`
+Returns what was said in the text
+
+`//rng "number"`
+Generates a random number between 1 and the selected number
+
+`//8ball "question"`
+Returns an 8ball answer to a question
+
+`//dice`
+Roll a pair of dices
+
+`//rps "text"`
+Play rock, paper scissors against the bot ('r', 'p' or 's')
+
+Hangman commands
+`//hmcreate`
+Creates a hangman game
+
+`//hmpick "server name" ("word or words")`
+Picks the word for the game (send a DM to the bot and encase the word/s in parenthesis)
+
+`//hmshow`
+Displays current game
+
+`//hml "letter"`
+Shows whether the letter is in the word or not
+
+`//hmguess "word or words"`
+Shows whether the guessed words is correct or not
+
+`//hmgm`
+Displays all guesses and misses
+
+`//hmdelete`
+Deletes current game
+
+Note commands
+`//notes`
+Displays list of notes
+
+`//cnote "text"`
+Create a note with the text given
+
+`//dnote "number"`
+Deletes a note in the position of the number selected
+
+`//rnotes`
+Deletes all notes from the list
+
+Audio commands
+`//join`
+Makes bot join current channel
+
+`//leave`
+Makes bot leave current channel
+
+`//play "youtube song or audio name"`
+Plays audio from message in command
+
+`//resume`
+Resumes current audio
+
+`//pause`
+Pauses current audio
+
+`//stop`
+Fully stops current audio and queue from playing
+
+`//next`
+Plays next audio in queue
+
+`//volume "number"`
+Switches audio to stated number percentage
