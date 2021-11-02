@@ -438,7 +438,6 @@ async def volume(ctx, *, message:int=None):
 
 # @bot.event
 # async def on_guild_join(guild):
-#     pass
 
 @bot.event
 async def on_message(message):
