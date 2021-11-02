@@ -21,56 +21,5 @@
             "counter": 0
         },
         "queue": []
-    },
-    "Test": {
-        "members": 4,
-        "ratings": {
-            "good": 0,
-            "bad": 0
-        },
-        "notes": [],
-        "hangman": {
-            "active": false,
-            "pick": null,
-            "current": null,
-            "correct": [],
-            "incorrect": [],
-            "counter": 0
-        },
-        "queue": []
-    },
-    "Dream Team": {
-        "members": 20,
-        "ratings": {
-            "good": 0,
-            "bad": 0
-        },
-        "notes": [],
-        "hangman": {
-            "active": false,
-            "pick": null,
-            "current": null,
-            "correct": [],
-            "incorrect": [],
-            "counter": 0
-        },
-        "queue": []
-    },
-    "Test Alone": {
-        "members": 2,
-        "ratings": {
-            "good": 0,
-            "bad": 0
-        },
-        "notes": [],
-        "hangman": {
-            "active": true,
-            "pick": "hello world",
-            "current": "_ _ _ _ _   _ _ _ _ _",
-            "correct": [],
-            "incorrect": [],
-            "counter": 0
-        },
-        "queue": []
     }
 }
