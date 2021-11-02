@@ -443,10 +443,10 @@ async def volume(ctx, *, message:int=None):
 @bot.event
 async def on_message(message):
     # if isinstance(message.channel, discord.channel.DMChannel) == False:
-    if message.guild != None:
-        print(f'{message.author} from "{message.guild.name}": {message.content}')
-    else:
-        print(f'{message.author} from "Direct Message Channel": {message.content}')
+    # if message.guild != None:
+    #     print(f'{message.author} from "{message.guild.name}": {message.content}')
+    # else:
+    #     print(f'{message.author} from "Direct Message Channel": {message.content}')
 
     # if message.content.startswith(f'<@!{bot.user.id}>'):
     #     await message.channel.send(f'You called, {get_short_user(message.author)}?')
