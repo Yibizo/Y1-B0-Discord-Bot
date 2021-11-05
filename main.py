@@ -60,7 +60,7 @@ async def on_ready():
 
 @bot.event
 async def on_guild_join(guild):
-    print(f'Joined: {guild.name}')
+    print(f'Joined "{guild.name}" with {guild.member_count} members')
     data = open_json()
     if guild.name not in data:
         data[guild.name] = {'members': guild.member_count,
