@@ -57,7 +57,17 @@ async def on_ready():
                             'hangman': {'active': False, 'pick': None, 'current': None, 'correct': [], 'incorrect': [], 'counter': 0},
                             'queue': []}
     write_json(data)
-        
+
+@bot.event()
+async def on_guild_join(self, guild):
+    data = open_json()
+    if guild.name not in data:
+        data[i.name] = {'members': i.member_count,
+                        'ratings': {'good': 0, 'bad': 0},
+                        'notes': [],
+                        'hangman': {'active': False, 'pick': None, 'current': None, 'correct': [], 'incorrect': [], 'counter': 0},
+                        'queue': []}
+    write_json(data)
 
 @bot.command()
 async def help(ctx, section=None):
