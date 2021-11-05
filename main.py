@@ -63,7 +63,7 @@ async def on_guild_join(guild):
     print(f'Joined: {guild.name}')
     data = open_json()
     if guild.name not in data:
-        data[i.name] = {'members': i.member_count,
+        data[guild.name] = {'members': guild.member_count,
                         'ratings': {'good': 0, 'bad': 0},
                         'notes': [],
                         'hangman': {'active': False, 'pick': None, 'current': None, 'correct': [], 'incorrect': [], 'counter': 0},
