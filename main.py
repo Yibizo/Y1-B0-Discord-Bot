@@ -59,7 +59,7 @@ async def on_ready():
     write_json(data)
 
 @bot.event
-async def on_guild_join(self, guild):
+async def on_guild_join(guild):
     print(f'Joined: {guild.name}')
     data = open_json()
     if guild.name not in data:
